@@ -1,116 +1,422 @@
-/*
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <title>Tal Equipment and Food</title>
+  <!--
 Snapshot Template
 http://www.templatemo.com/tm-493-snapshot
 
-*/
+Zoom Slider
+https://vegas.jaysalvat.com/
+
+Caption Hover Effects
+http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
+-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/component.css">
+
+  <link rel="stylesheet" href="css/owl.theme.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/vegas.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google web font  -->
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
 
-/* Body 
-------------------------------------- */
-body {
-    background: #ffffff;   
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    position: relative;
-}
+  <!-- Preloader section -->
 
-html,body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
-html {
-  font-size: 100%;
-}
+  <div class="preloader">
+    <div class="sk-spinner sk-spinner-pulse"></div>
+  </div>
 
 
+  <!-- Navigation section  -->
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#top" class="navbar-brand smoothScroll"></a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><img id="logo" src="./images/logo.jpg" alt="תמונת לוגו של העסק"></li>
+          <li><a href="#top" class="smoothScroll"><span>בית</span></a></li>
+          <li><a href="#about" class="smoothScroll"><span>אודות</span></a></li>
+          <li><a href="#gallery" class="smoothScroll"><span>גלריה</span></a></li>
+          <li><a href="#contact" class="smoothScroll"><span>
+                צור איתנו קשר</span></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <!----animal strip-->
+<section id="animal-strip" class="py-1">
+  <div class="container-fluid text-left">
+    <div class="animal-strip-line">
+
+      <!-- תמונות החיות -->
+      <img src="./images/dog-nav.png" alt="כלב">
+      <img src="./images/cat-nav.png" alt="חתול">
+      <img src="./images/parrot-nav.png" alt="תוכי">
+      <img src="./images/fish-nav.png" alt="דג">
+      <img src="./images/rodents-nav.png" alt="מכרסם">
+
+      <!-- טקסט אחרי החיות -->
+      <span class="strip-text">
+        <i class="fa fa-truck"></i>משלוחים חינם
+        <i class="fa fa-phone"></i> <a href="tel:0547088798">054-708-8798</a>
+      </span>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Home section -->
+
+  <section id="home">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+          <h1 class="wow fadeInUp" data-wow-delay="0.6s">ברוכים הבאים לחנות של טל ציוד ומזון לבעלי חיים </h1>
+          <p class="wow fadeInUp" data-wow-delay="0.9s">
+            ברוכים הבאים לחנות החיות שלנו!
+            כאן תמצאו את כל מה שחיות המחמד שלכם צריכות — מזון איכותי, צעצועים, מיטות, אביזרים ומוצרי טיפוח לכלבים,
+            חתולים, דגים ומכרסמים.
+            אצלנו כל חיה מקבלת אהבה, איכות ושירות אישי מכל הלב — עם שירות משלוחים חינם לאזור המרכז. <a rel="nofollow"
+              href="#"></a></p>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
-/*---------------------------------------
-    Typorgraphy              
------------------------------------------*/
+  <!-- About section -->
 
-#home h1, #home p {
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-}
+  <section id="about">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="about-thumb">
+            <h1>קצת עלינו</h1>
+            <p>
+              אנחנו בחנות <strong>טל – ציוד ומזון לבעלי חיים</strong> מאמינים שחיות המחמד הן חלק מהמשפחה.
+              לכן אנחנו מקפידים להביא לכם רק מוצרים איכותיים מהמובילים בעולם – מזון בריא, צעצועים מעשירים, מיטות נוחות,
+              אביזרי טיפוח, ציוד לאקווריומים ולמכרסמים ועוד.
+              <br><br>
+              צוות החנות שלנו מורכב מאנשים שאוהבים בעלי חיים באמת, ונשמח לייעץ, להתאים לכם מוצרים אישית ולוודא שחיית
+              המחמד שלכם מקבלת את הטוב ביותר.
+              <br><br>
+              החנות ממוקמת באזור המרכז, ומעניקה שירות משלוחים מהיר – **וחינם** לכל האזור.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+          <img src="images/shop.jpg" class="img-responsive img-circle" alt="About">
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="section-title text-center">
+            <h1>קצת ממגוון המותגים שלנו</h1>
+            <h3>אצלנו תמצאו רק מוצרים מהמותגים המובילים בעולם לחיות מחמד</h3>
+          </div>
+        </div>
+
+        <!-- team carousel -->
+        <div id="team-carousel" class="owl-carousel">
+
+          <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-thumb">
+              <div class="image-holder">
+                <img src="images/gosbifood.jpg" class="img-responsive img-circle" alt="Mary">
+              </div>
+              <h2 class="heading">Gosbi </h2>
+              <p class="description">
+              </p>
+            </div>
+          </div>
+
+          <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="team-thumb">
+              <div class="image-holder">
+                <img src="images/acana-dog-food.jpg" class="img-responsive img-circle" alt="Jack">
+              </div>
+              <h2 class="heading">ACANA</h2>
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-thumb">
+              <div class="image-holder">
+                <img src="images/monge-food.jpg" class="img-responsive img-circle" alt="Linda">
+              </div>
+              <h2 class="heading">MONGE</h2>
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-thumb">
+              <div class="image-holder">
+                <img src="images/mito-food.jpg" class="img-responsive img-circle" alt="Sandy">
+              </div>
+              <h2 class="heading">MITO</h2>
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-thumb">
+              <div class="image-holder">
+                <img src="images/now-food.jpg" class="img-responsive img-circle" alt="Lukia">
+              </div>
+              <h2 class="heading">NOW</h2>
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-thumb">
+              <div class="image-holder">
+                <img src="images/roya-canin.jpg" class="img-responsive img-circle" alt="George">
+              </div>
+              <h2 class="heading">ROYAL CANIN</h2>
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-thumb">
+              <div class="image-holder">
+                <img src="images/taste-of-the-wild.jpg" class="img-responsive img-circle" alt="Day">
+              </div>
+              <h2 class="heading">test of the wild</h2>
+              <p class="description"></p>
+            </div>
+          </div>
+
+          <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="team-thumb">
+              <div class="image-holder">
+                <img src="images/notri-source.jpg" class="img-responsive img-circle" alt="Lynn">
+              </div>
+              <h2 class="heading">NUTRI SOURCE</h2>
+              <p class="description"></p>
+            </div>
+          </div>
+
+        </div>
+        <!-- end team carousel -->
+
+      </div>
+    </div>
+  </section>
 
 
-h1,h2,h3,h4 {
-  font-weight: 300;
-}
+  <!-- Gallery section -->
 
-h1 {
-  font-size: 2rem;
-  line-height: 3rem;
-  letter-spacing: 12px;
-  text-transform: uppercase;
-  padding-bottom: 8px;
-}
+  <section id="gallery">
+    <div class="container">
+      <div class="row">
 
-h2 {
-  color: #e44c65;
-  font-size: 1.2rem;
-  font-weight: bold;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-}
+        <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="section-title">
+            <h1>Gallery</h1>
+            <p> אנו מציעים מגוון רחב של ציוד, מזון ואביזרים איכותיים לכלבים ולחתולים – כולל חטיפים, צעצועים, מיטות,
+              קולרים ומוצרי טיפוח מהמותגים המובילים בעולם.
+              כל מה שחיית המחמד שלכם צריכה – במקום אחד.
+            </p>
+          </div>
+        </div>
 
-h3 {
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
+        <ul class="grid cs-style-4">
+          <li class="col-md-6 col-sm-6">
+            <figure class="figure-img">
+              <div><img src="images/shampo.jpg" alt="image 1"></div>
+              <figcaption>
+                <h1>מוצרי טיפוח</h1>
+                <small>בחנות שלנו תמצאו את כל מוצרי הטיפוח שכלבכם וחתולכם צריכים — שמפו, מרכך, מברשות, תרסיסים, מגבונים,
+                  קולרים ועוד.
+                  כל מה שצריך כדי שחיית המחמד שלכם תיראה, תרגיש ותישאר במיטבה 🐶🐱</small>
 
-p {
-  color: #888;
-  font-size: 20px;
-  letter-spacing: 1px;
-  line-height: 34px;
-}
+              </figcaption>
+            </figure>
+          </li>
 
-#home p,
-#contact p, footer p {
-  color: #f9f9f9;
-}
+          <li class="col-md-6 col-sm-6">
+            <figure class="figure-img">
+              <div><img src="images/snacks.jpg" alt="image 2"></div>
+              <figcaption>
+                <h1>חטיפים ומזון משלים </h1>
+                <small>אנו מציעים חטיפים ומזונות משלימים עשירים בחלבון, ויטמינים ומינרלים – לתמיכה בבריאות, באנרגיה
+                  ובפרווה מבריקה.
+                  כל חטיף נבחר בקפידה ממותגים מובילים בעולם, כדי להבטיח תזונה מאוזנת ומענה מושלם לכל צורך
+                  תזונתי</small>
 
-.btn {
-  border:none;
-  border-radius: 4px;
-  transition: all 0.4s ease-in-out;
-}
+              </figcaption>
+            </figure>
+          </li>
 
-.btn:focus {
-  background: #e44c65;
-  border-color: transparent;
-}
+          <li class="col-md-6 col-sm-6">
+            <figure class="figure-img">
+              <div><img src="images/toys2.jpg" alt="image 3"></div>
+              <figcaption>
+                <h1>צעצועים ומשחקים</h1>
+                <small>בחנות שלנו תמצאו מגוון ענק של צעצועים, משחקים ומגרדות לכלבים ולחתולים – כדי להעסיק, לשעשע ולשמור
+                  על חיית המחמד שלכם פעילה ומאושרת.
+                  צעצועי לעיסה, כדורים, חבלים, מגרדות איכותיות ועוד – כי גם להם מגיע לשחק ולהנות כל יום!</small>
 
-.btn-success {
-  background: #e44c65;
-  font-weight: 300;
-  letter-spacing: 2px;
-  padding: 14px 32px;
-  margin-top: 26px;
-}
+              </figcaption>
+            </figure>
+          </li>
 
-.btn-success:hover {
-  background: #222;
-}
+          <li class="col-md-6 col-sm-6">
+            <figure class="figure-img">
+              <div><img src="images/cages.jpg" alt="image 4"></div>
+              <figcaption>
+                <h1>כלובי אילוף ונסיעה </h1>
+                <small>אצלנו תמצאו מגוון רחב של כלובי אילוף ונסיעה לכלבים ולחתולים – בטיחותיים, נוחים וקלים לנשיאה.
+                  הכלובים שלנו מושלמים לנסיעות, לטיסות או לאילוף בבית, ונותנים לחיית המחמד שלכם תחושת ביטחון ונוחות בכל
+                  מצב.</small>
 
-a {
-  color: #e44c65;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  text-decoration: none !important;
-}
-a:hover, a:active, a:focus {
-  color: #e44c65;
-  outline: none;
-}
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
 
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact section -->
+
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center wow fadeInUp" data-wow-delay="0.3s">
+
+        <div class="col-md-12 section-title">
+          <h1>צור קשר</h1>
+          <p>נשמח לעמוד לרשותכם בכל שאלה, הזמנה או ייעוץ אישי לחיית המחמד שלכם 🐾</p>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <h3><i class="fa fa-clock-o"></i> שעות פעילות</h3>
+          <p>
+            א׳–ה׳: 09:00–22:00<br>
+            ו׳: 09:00–16:00<br>
+            שבת: סגור
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <h3><i class="fa fa-map-marker"></i> כתובת</h3>
+          <p>
+            רחוב רבי מאיר 12, ראשון לציון<br>
+            (חניה צמודה ונגישה)
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <h3><i class="fa fa-phone"></i> פרטים ליצירת קשר</h3>
+          <p>
+            📞 טלפון: <a href="tel:03-5551234">054-708-8798</a><br>
+            📧<a href="mailto:info@talpets.co.il">Talj707@gmail.com אימייל:</a><br>
+            💬 וואטסאפ: <a href="https://wa.me/972505551234" target="_blank">054-708-8798</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer section -->
+
+  <footer>
+    <div class="container">
+      <div class="row align-items-center text-center">
+
+        <div class="col-md-12 col-sm-12">
+
+          <ul class="social-icon">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100087298514524" class="fa fa-facebook wow fadeInUp"
+                data-wow-delay="0.2s"></a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/tal_animal/" class="fa fa-instagram wow fadeInUp"
+                data-wow-delay="0.4s"></a>
+            </li>
+
+            <!-- 🌍 אייקון מפה / מיקום -->
+            <li>
+              <a href="https://www.google.com/maps/place/טל+ציוד+ומזון+לבעלי+חיים%E2%80%AD/@31.9453923,34.8260242,17z/data=!4m6!3m5!1s0x1502b581d76c36a3:0x5a941991f12a5e33!8m2!3d31.9453878!4d34.8234493!16s%2Fg%2F11jzf4ft49?entry=ttu&g_ep=EgoyMDI1MTAyMi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank" class="fa fa-map-marker wow fadeInUp" data-wow-delay="0.6s">
+              </a>
+            </li>
+          </ul>
+
+          <!-- טקסט מאז 2012 -->
+          <p class="footer-text wow fadeInUp" data-wow-delay="0.9s">
+            🐾 מאז 2012 | טל ציוד ומזון לבעלי חיים
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back top -->
+  <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- Javascript  -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/vegas.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/toucheffects.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -791,4 +1097,5 @@ footer .footer-text {
 
 footer .footer-text:hover {
   color: #fff;
+
 }
